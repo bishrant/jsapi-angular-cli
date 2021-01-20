@@ -1,0 +1,26 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "strict": false,
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "target": "ES6",
+    "module": "ES2015",
+    "lib": [
+      "ES2016",
+      "ES6",
+      "es2018",
+      "dom",
+      "ES2019"
+    ],
+    "types": ["arcgis-js-api"]
+  }
+}
