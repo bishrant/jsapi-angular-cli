@@ -9,5 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
        - name: Webhook_test
-       - run: echo -n -e "HELLO\n !\n World!"
-          
+         run: echo "CRON HELLO"
