@@ -9,8 +9,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
        - name: Webhook_test
-         uses: distributhor/workflow-webhook@v1
-         with:
-           url:  https://webhook.site/#!/0c2bef74-7a42-4bb7-bcc6-3417ac64b63f
-           json: '{"name":"Test"}' 
+       - run: echo -n -e "HELLO\n !\n World!"
           
